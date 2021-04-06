@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  max-height: 100%;
+}
+body .translator .english {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #48c0f8;
+  text-align: center;
+  height: 50vh;
+}
+body .translator h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 46px;
+  color: #3b3a3a;
+}
+body .translator label {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #3b3a3a;
+}
+body .translator .container {
+  text-align: center;
+}
+body .translator #inputMessage {
+  width: 30vw;
+  height: 5vh;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 25px;
+  border: none;
+  border-bottom: 3px solid #3b3a3a;
+  background: #48c0f8;
+}
+body .translator .outputMessage {
+  background: aliceblue;
+  text-align: center;
+  height: 50vh;
+}
+body .translator #message {
+  padding-top: 200px;
+  font-size: 30px;
+  padding: 50px;
+}
+body .translator #clear {
+  width: 100px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 15px;
+  cursor: pointer;
+  text-decoration: underline;
+  background: #48c0f8;
+  border: none;
+  color: #3b3a3a;
+}

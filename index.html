@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"  href="styles.css">
+  <script src="script.js" type="module" async defer></script>
+  <title>MorseCode Translator</title>
+</head>
+<body>
+<section class='translator'>
+  <div class='english'>
+  <h1>Message to morsecode</h1>
+    <label>Write your message here and hit enter!</label>
+    <div class='container'>
+    <input type='text' id='inputMessage' onfocus="this.value=''"/>
+    </div>
+  </div>  
+  <div class='outputMessage'>
+    <div id='message'></div>
+    <button id='clear'>Clear text</button>
+  </div>
+</section>
+</body>
+</html>
